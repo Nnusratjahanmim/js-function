@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- fontsawesome links-->
+      <script src="https://kit.fontawesome.com/d93a79b9b9.js" crossorigin="anonymous"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet"> 
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+    <!-- CSS links-->
+     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet"  href="css/style.css">
+    
+
+    <title>Javascript</title>
+  </head>
+   <body>
+    
+<header>
+ <button type="button" class="btn btn-info btn-block" onclick ="btn1()"> 
+  <h1 id="btnhead">welcome to javascript world</h1></button>
+  <div class="container">
+    <div class="row">
+        
+
+        <div class="col-md-8 ">
+          <ul class="nav nav-pills justify-content-center mt-5">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="tooltip" data-placement="bottom" >ABOUT </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="tooltip" data-placement="top" >PROTFOLIO</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="tooltip" data-placement="bottom" >CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+      <div class="contact">
+        <a href="https://www.facebook.com/nusratmiimm/" target="_blank"><i class="fab fa-facebook" onmouseover="btn3()"></i></a>
+        <span id="fbicon">facebook</span>
+      </div>
+      </div>
+         </div>
+
+         <!-- 2nd row  start -->
+         <div class="row">
+      <div class="col-md-2">
+        <div class="tab">
+          <div class="tab01">
+            <p> <a href="#" onmouseover="tab11()">tab01</a></p>
+            <p> <a href="#" onmouseover="tab22()">tab01</a></p>
+            <p> <a href="#" onmouseover="tab33()">tab01</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="tabmd">
+          <h1>javascript contact</h1>
+          <p id="tab1">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Distinctio vitae atque quasi debitis fugit rem blanditiis iure nulla inventore dolore Lorem ipsum dolor sit amet consectetur</p>
+        </div>
+        <div class="tab222">
+           <p id="tab223">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley  </p>
+        </div> 
+         <div class="tab222">
+           <p id="tab333">Why do we use it It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is </p>
+        </div>
+      </div>
+      <div class="col-md-3"></div>
+    </div> 
+      <button class="btn btn-info btn-block " onclick="clickbtn()"> click me</button>
+    <p class="hidbtn" id="clickme" >Thanks for Click Me</p>
+     </div>
+</header>
+<!-- about start -->
+<section class="about">
+  <div class="container">
+     <h1 class="text-center m-5">ABOUT JAVASCRIPT</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="light1">
+          <button type="submit" class="btn btn-info btn-block mt-5" onclick="document.getElementById('light').src='img/2.jpg'"> on </button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="light2">
+          <img src="img/1.jpg" class="img-fluid lightimg" alt="light" id="light">
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="light3">
+          <button type="submit" class="btn btn-info btn-block mt-5" onclick="document.getElementById('light').src='img/1.jpg'"> off </button>
+
+        </div>
+      </div>
+    </div>
+
+    <p id="variable" onmouseover="hello()"> example</p>
+    <p id="variable2"></p>
+    <p id="variable3"></p>
+    <p id="variable4"></p>
+  </div>
+</section>
+
+<p id="age"></p>
+
+
+<button onclick="this.innerHTML=Date()">The time is?</button>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+
+
+
+
+<p id="myP"></p>
+
+
+
+<p>The line starting with // is not executed.</p>
+
+
+
+
+<p>This example calls a function to convert from Fahrenheit to Celsius:</p>
+<p id="two"></p>
+
+
+
+<p id="add"></p>
+
+
+<p id="degree"></p>
+
+<button onclick="myFunction()">Try it</button>
+
+
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="popup"></p>
+
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="alert"></p>
+
+
+
+<button onclick="alert('Hello\nHow are you?')">click</button>
+
+
+
+
+<p id="time"></p>
+
+<button onclick="clearInterval(myVar)">Stop time</button>
+
+
+
+<p>The fullName property is a method:</p> 
+
+<p id="nameone"></p>
+
+
+<p id="number"></p>
+
+<p>Counting with a local variable.</p>
+
+<button type="button" onclick="myFunction()">Count!</button>
+
+<p id="add">0</p>
+
+
+
+
+
+
+
+    <!-- JS links -->
+
+
+    <script src="js/script.js"></script>
+<script>
+ 
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
